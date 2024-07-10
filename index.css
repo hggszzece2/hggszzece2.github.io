@@ -1,0 +1,109 @@
+/* Estilos generales */
+
+.navbar img {
+    width: 80px; /* Ajustar tamaño del logo en la barra de navegación */
+}
+
+.navbar .text-matricula {
+    color: #97c9be; /* Color del texto de matrícula en la barra de navegación */
+}
+
+#principal img {
+    max-height: 70vh; /* Altura máxima para las imágenes del carousel principal */
+    object-fit: cover; /* Ajuste de la imagen para cubrir el espacio sin deformar */
+}
+
+#principal {
+    position: relative; /* Posición relativa para el contenedor principal del carousel */
+}
+
+#principal #contenido {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente oscuro para el contenido superpuesto */
+    width: 100%;
+    height: 100%;
+    color: white; /* Color de texto para el contenido superpuesto */
+    display: flex;
+    align-items: center; /* Centrar verticalmente el contenido */
+    padding: 20px; /* Espaciado interior para el contenido */
+}
+
+#principal #contenido .vision-text {
+   
+    right: 20px; /* Alinear texto "Vision" a la derecha */
+    top: 50%; /* Centrar verticalmente */
+    transform: translateY(-50%);
+    color: rgb(110, 16, 16);
+    font-size: 24px;
+}
+
+#footer {
+    background-color: #112e4f; /* Color de fondo para el footer */
+    color:rgb(84, 16, 16);
+}
+
+#footer a {
+    text-decoration: none; /* Quitar subrayado en los enlaces del footer */
+    color: white; /* Color de texto para los enlaces del footer */
+}
+
+/* Estilos específicos para la contenido de la sección Vision */
+
+/* Estilos específicos para la contenido de la sección Vision */
+
+.vision .card {
+    min-height: 400px; /* Altura mínima para la tarjeta que contiene la imagen */
+    display: flex;
+    align-items: center; /* Centrar contenido verticalmente */
+    background-color: #112e4f; /* Color de fondo azul oscuro */
+    padding: 20px; /* Espaciado interior para la tarjeta */
+}
+
+.vision .card-img-top {
+    height: 400%; /* Altura completa para la imagen */
+    object-fit: cover; /* Ajuste de la imagen para cubrir el espacio sin deformar */
+    background-color: #112e4f;
+}
+
+.vision .card-body {
+    padding: 20px; /* Espaciado interior para el cuerpo de la tarjeta */
+    background-color: #112e4f; /* Color de fondo azul oscuro */
+    height: 400px;
+}
+
+
+/* Estilos específicos para los botones y enlaces */
+
+.btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #112e4f;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+.cajon{
+ background-color: rgb(37, 37, 41);
+    height: 490px;
+    color: white;
+    bottom: 0;
+    right: 0;
+}
+.vision{
+    position: relative;
+}
+
+
